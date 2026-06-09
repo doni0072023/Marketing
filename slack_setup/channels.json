@@ -1,0 +1,62 @@
+{
+  "workspace": "Pacific Focus",
+  "owner_tags": {
+    "Owen": "author",
+    "Adoniah": "builder/marketer (website, GoHighLevel, content)",
+    "Bree": "launch/PR",
+    "Kez": "not yet onboard (warm)",
+    "Team": "shared decision"
+  },
+  "_note_owner_handles": "Optional: provide slack_setup/owners.json mapping each tag to a Slack user ID (e.g. {\"Owen\": \"U012ABCDEF\"}). When present, setup_slack.py rewrites [Owen] -> <@U012ABCDEF> in canvases. Without it, the literal [Owen] tags are kept.",
+  "channels": [
+    {
+      "name": "00-start-here",
+      "is_private": false,
+      "purpose": "Vision, who does what, and the identities we're each stepping into.",
+      "canvas": "# Pacific Focus\n\n**Pacific Focus** exists to get Owen's book finished, published, and in front of the right readers — and to build the personal brands/platform that carry it. We're laying foundations now: a content engine, a website/funnel, a clean manuscript, and a publishing path (traditional *or* self-pub). Everyone \"steps into their identity\" — the public-facing version of themselves this project needs.\n\nChannels are numbered. Tasks live as checklists/Lists inside each channel. Owners are tagged.",
+      "tasks": "## Tasks\n\n- [ ] [Team] Write the **one-paragraph vision** + the book's positioning (who it's for, the promise, why now).\n- [ ] [Team] Fill the **roles & owners** table:\n    - Owen — author & manuscript\n    - Adoniah — website, GoHighLevel, content engine\n    - Bree — book launch & PR\n    - Kez — *(role held open — see #06)*\n- [ ] [Team] Define the **identities each person is stepping into** — for each: voice, audience, what they want to be known for, 3 example topics:\n    - [ ] [Owen] Author identity (the expert/storyteller behind the book)\n    - [ ] [Adoniah] Builder/marketer identity (the one who builds the platform & systems)\n    - [ ] [Bree] Launch/PR identity\n- [ ] [Team] **Working agreements:** channel list, where tasks live (Lists vs checklists), weekly check-in day/time, decision-log location."
+    },
+    {
+      "name": "01-manuscript",
+      "is_private": false,
+      "purpose": "Owner: Owen (deep). Owen's editing, breakdown, and rewrite pipeline — get to a publisher-ready manuscript.",
+      "canvas": "# 01 · Manuscript — Owner: Owen (deep)\n\nOwen has a full draft and is editing → breaking it down → rewriting. This channel tracks the manuscript chapter by chapter until we have (a) a clean full draft and (b) a polished sample we can pitch.\n\n**Status convention per chapter:** Done / Editing / Rewrite / Cut.",
+      "tasks": "## Tasks\n\n- [ ] [Owen] **Inventory the draft** — list every chapter and set a status (Done / Editing / Rewrite / Cut) in a chapter status sheet.\n- [ ] [Owen] **Structural edit** — map the book's spine/outline; confirm the through-line and order; flag chapters that need a rewrite vs a light pass.\n- [ ] [Owen] **Rewrite pass** — work chapter by chapter:\n    - [ ] Rewrite the chapter\n    - [ ] Line edit (clarity, tighten, voice)\n    - [ ] Self-review checklist (does it open strong, earn its place, end with momentum?)\n- [ ] [Owen] **Lock the pitch sample** — polished synopsis + the strongest 1–3 chapters, ready for publishers (feeds #02).\n- [ ] [Owen] Pull **3–5 key ideas/quotes per chapter** as raw material for content (feeds #04).\n- [ ] [Team] **Editor-support decision (foundation, not scheduled):** beta readers vs professional editor vs proofreader — decide what level of help the book gets."
+    },
+    {
+      "name": "02-publishing",
+      "is_private": false,
+      "purpose": "Owners: Owen + Adoniah (deep). Run agent route, paid hybrid offer, and self-publish fallback in parallel — then choose with eyes open.",
+      "canvas": "# 02 · Publishing — Owners: Owen + Adoniah (deep)\n\nWe have three live options. We keep them moving in parallel and never sign anything exclusive that closes the others down.\n\n**Golden rule:** a traditional publisher/agent pays *you*; if *you* pay *them*, it's a hybrid/paid deal — fine to consider, but scrutinise it. We converge on one track only when we hit the decision criteria below.",
+      "tasks": "## Track A — Literary agents / traditional (no upfront cost — they pay us)\n\n- [ ] [Adoniah] **Submission tracker** — log every agent/publisher submitted to: name, date sent, response, next step.\n- [ ] [Owen] Assemble the **submission package:**\n    - [ ] Query/pitch letter\n    - [ ] Synopsis (1 page)\n    - [ ] Author bio + photo\n    - [ ] Sample chapters (from #01)\n    - [ ] **Marketing/platform one-pager** (audience, socials, list size, launch plan — proof we can sell)\n- [ ] [Owen] Keep submitting to a target list of agents that fit the genre.\n- [ ] [Adoniah] **Follow-up plan** — cadence for staying on their radar without nagging.\n\n## Track B — Paid hybrid offer (on the table — evaluate, don't rush)\n\n> Offer received: publisher will take the book **but we pay to be published**, **royalties split 50/50**. This is a *hybrid/paid* deal, not a traditional one. Do **not** sign while Track A submissions are live, and **do not sign anything exclusive** that kills the agent route.\n\n- [ ] [Owen]/[Adoniah] Get the **full offer + contract in writing** and log it in the tracker.\n- [ ] [Team] **Evaluation checklist — answers required before considering it:**\n    - [ ] Exactly what does the **fee cover** (editing, cover, ISBN, distribution, marketing — itemised)?\n    - [ ] **Who owns the rights and the ISBN** — us or them?\n    - [ ] **Exit clause / term length** — can we get rights back, how and when?\n    - [ ] Is it **exclusive**? Does signing kill the agent submissions?\n    - [ ] What's the **real distribution** — bookshops & libraries, or just an Amazon listing we could get ourselves?\n    - [ ] What marketing is **contractually guaranteed** vs vaguely promised?\n    - [ ] Can they show **comparable titles + actual sales numbers**?\n- [ ] [Team] **Independent contract review** before signing — Society of Authors (free for members) and/or ALLi (rates hybrid publishers).\n- [ ] [Team] Compare the **economics** vs Track A (free, they pay us) and Track C (we keep ~100% minus costs).\n\n## Track C — Self-publish (fallback, kept ready)\n\n- [ ] [Adoniah] **Platform decision** — Amazon KDP vs IngramSpark (vs both); note pros/cons for our case.\n- [ ] [Adoniah] Sort **ISBN**, **cover design**, **interior formatting/typesetting**, **pricing**, and **distribution** as a ready-to-launch path.\n- [ ] [Bree] *(coordinates with #05 — self-pub launch is Bree's domain)*\n\n## Decision\n\n- [ ] [Team] Agree **decision criteria + a date** to choose A, B, or C (so the parallel effort converges instead of running forever).\n- [ ] [Team] **Guardrail:** never sign anything exclusive while other tracks are still live."
+    },
+    {
+      "name": "03-website-funnel",
+      "is_private": false,
+      "purpose": "Owner: Adoniah (deep). The website + GoHighLevel build — the home base and lead-capture engine.",
+      "canvas": "# 03 · Website & Funnel — Owner: Adoniah (deep)\n\nAdoniah builds the foundation here: a simple author website and a GoHighLevel funnel that captures readers, nurtures them, and feeds the launch list. Build it once, reuse it for the launch.",
+      "tasks": "## Tasks\n\n- [ ] [Adoniah] **Brand assets & domain** — buy the domain; lock logo, colours, fonts (shared with #04).\n- [ ] [Adoniah] **GoHighLevel setup** — create the account/sub-account; connect the domain; set up email/SMS sending; connect a calendar.\n- [ ] [Adoniah] **Build the foundation funnel:**\n    - [ ] Home / landing page\n    - [ ] Author / about page (Owen's identity from #00)\n    - [ ] Book page (cover, blurb, pre-order/notify CTA)\n    - [ ] **Lead magnet opt-in** (e.g. free first chapter)\n    - [ ] Thank-you page + **nurture email sequence**\n- [ ] [Adoniah] **CRM pipeline & tags** — set up tags (Lead / Reader / Launch list) and a simple pipeline; basic automations (deliver lead magnet, add to list).\n- [ ] [Adoniah] **Tracking + waitlist** — analytics/pixels installed; a **launch-ready waitlist page** that #05-launch will reuse."
+    },
+    {
+      "name": "04-content-and-linkedin",
+      "is_private": false,
+      "purpose": "Owners: Adoniah + Owen (deep). Stand up the content engine and get Owen's LinkedIn going.",
+      "canvas": "# 04 · Content & LinkedIn — Owners: Adoniah + Owen (deep)\n\nThis is the foundation that builds the audience before launch. Optimise Owen's LinkedIn to his author identity, then run a repeatable content engine (idea → draft → review → schedule) drawing material from the book.",
+      "tasks": "## Tasks\n\n- [ ] [Owen] + [Adoniah] **Optimise Owen's LinkedIn profile** to the author identity:\n    - [ ] Headline\n    - [ ] About section\n    - [ ] Banner image\n    - [ ] Featured (book / lead magnet link)\n- [ ] [Adoniah] **Stand up the content engine:**\n    - [ ] Content **pillars/themes** (3–5, tied to the book)\n    - [ ] **Content calendar** + posting cadence\n    - [ ] **Capture/production workflow** (idea → draft → Owen review → schedule)\n    - [ ] **Repurposing** flow (one idea → post + email + short-form)\n    - [ ] Pick the **scheduler/tooling**\n- [ ] [Adoniah] + [Owen] **First foundation content batch:**\n    - [ ] Intro / \"stepping into the author identity\" post\n    - [ ] Book-journey series (writing → rewriting → publishing)\n    - [ ] Value posts pulled from chapter ideas/quotes (#01)\n- [ ] [Adoniah] Define the **metrics that matter** (followers, engagement, opt-ins) — to watch foundations, not to hit targets yet."
+    },
+    {
+      "name": "05-launch",
+      "is_private": false,
+      "purpose": "Owner: Bree (lighter for now). Hold the book-launch plan — activates once the publishing path is chosen.",
+      "canvas": "# 05 · Launch — Owner: Bree (lighter for now)\n\nBree owns the launch (especially if we self-publish). For now we keep it light and just build the launch list via the website. The dated launch plan waits until the publishing path is decided (#02).",
+      "tasks": "## Tasks\n\n- [ ] [Bree] **Launch concept** — angle, channels, and what a great launch looks like (placeholder until path is chosen).\n- [ ] [Bree] + [Adoniah] **Grow the launch list** via the #03 waitlist page.\n- [ ] [Bree] Start an **outreach / ARC / review-team idea list** (who could endorse, review, or amplify).\n\n## 🅿️ Parking lot (deferred)\n\n- Dated launch timeline & runbook — *blocked on the #02 publishing decision.*"
+    },
+    {
+      "name": "06-team-and-ops",
+      "is_private": false,
+      "purpose": "Owner: Adoniah; Bree/Kez lighter. Tools, access, onboarding — and bringing Kez on when the moment's right.",
+      "canvas": "# 06 · Team & Ops — Owner: Adoniah · Bree/Kez lighter\n\nKeep the basics running and the team easy to join. Kez isn't on board yet — we hold a clear role for her and let momentum do the convincing. No hard ask; keep her warm and ready to invite.",
+      "tasks": "## Tasks\n\n- [ ] [Adoniah] **Tooling & access** — Slack, GoHighLevel, shared drive/folder; who has access to what.\n- [ ] [Adoniah] Write a simple **onboarding doc** (how we work, where things live) — reused for anyone joining.\n- [ ] [Team] **Kez onboarding plan:**\n    - [ ] Hold a **clear role** for her and write down what it is\n    - [ ] Define **\"what good looks like\"** when she joins\n    - [ ] Prep a **momentum update** (show, don't tell) she can be invited into\n    - [ ] Keep warm — **no hard ask** until she's leaning in"
+    }
+  ]
+}
