@@ -1,0 +1,8 @@
+{
+  "_comment": "Copy to owners.json and fill in Slack user IDs to turn [Tag] into @mentions in canvases. Find IDs via a member's profile -> More -> Copy member ID. Leave a value empty/absent to keep the literal [Tag].",
+  "Owen": "",
+  "Adoniah": "",
+  "Bree": "",
+  "Kez": "",
+  "Team": ""
+}
